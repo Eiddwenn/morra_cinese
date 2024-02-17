@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/stile.css">
+    <script src="script/index.js" defer></script>
+    <title>Giochiamo alla morra cinese</title>
+</head>
+<body>
+    <h1>Morra Cinese</i></h1>
+    <button id="inizia">play</button>
+
+    <div id="gioco">
+
+        <div id="you">
+            <span>YOU</span>
+            <ul id="scelta">
+                <li id="liCarta">
+                    <img src="immagini/paper_player.png" alt="Foglia" id="foglia">
+                </li>
+                <li id="liForbice">
+                    <img src="immagini/scissor_player.png" alt="Forbice" id="forbice">
+                </li>
+                <li id="liSasso">
+                    <img src="immagini/rock_player.png" alt="Sasso" id="sasso">
+                </li>
+            </ul>
+            <img src="immagini/paper_player.png" alt="Foglia" id="activeFoglia" class="hidden"> 
+            <img src="immagini/scissor_player.png" alt="Forbice" id="activeForbice" class="hidden">
+            <img src="immagini/rock_player.png" alt="Sasso" id="activeSasso" class="hidden">
+            <div id="punteggioYou">0</div>
+        </div>
+        <div id="cpu">
+            <span>CPU</span>
+            <div id="punteggioCpu">0</div>
+            <img src="immagini/paper_cpu.png" alt="Foglia" id="cpuFoglia" class="hidden"> 
+            <img src="immagini/scissor_cpu.png" alt="Forbice" id="cpuForbice" class="hidden">
+            <img src="immagini/rock_cpu.png" alt="Sasso" id="cpuSasso" class="hidden">
+        </div>
+
+    </div>
+
+    <div id="risultato"></div>
+
+
+
+
+</body>
+</html>
